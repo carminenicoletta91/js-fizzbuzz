@@ -7,6 +7,9 @@ var sostituto;
 var numero = 0;
 // variabile contatore
 var i = 0;
+var elemento = document.getElementById( 'il-mio-id' );
+var temp;
+
 // faccio stampare i numeri da 1 a 100
 while (i<100){
   numero = numero + 1;
@@ -20,5 +23,7 @@ while (i<100){
     sostituto = "FizzBuzz";
   }
   i++;
+  temp = elemento.innerHTML;
+  elemento.innerHTML = temp + "<li>" + sostituto + "</li>" ;
   console.log(sostituto);
 }
