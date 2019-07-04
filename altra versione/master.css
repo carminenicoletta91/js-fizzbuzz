@@ -1,0 +1,16 @@
+*{
+  margin:0;
+  padding:0;
+
+}
+ul{
+  text-align: center;
+  color:green;
+  list-style: none;
+  line-height:40px;
+}
+hr{
+  color:green;
+  width:50%;
+  margin:0 25%;
+}
